@@ -1,0 +1,231 @@
+New log file opened at Tue May 30 18:12:40 IST 2017 by 22870@test-VirtualBox
+jvm 22870@test-VirtualBox
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.131-b11
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/test/Desktop/AkkaKafkaEg
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/test/Desktop/AkkaKafkaEg/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg/project, returning: (akkakafkaeg-build)
+Loading project definition from /home/test/Desktop/AkkaKafkaEg/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4d8abddc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/test/Desktop/AkkaKafkaEg
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg, returning: (akkakafkaeg)
+Set current project to kafka-akka-example (in build file:/home/test/Desktop/AkkaKafkaEg/)
+Reapplying settings...
+Set current project to kafka-akka-example (in build file:/home/test/Desktop/AkkaKafkaEg/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@49cd0e97, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed 30 May, 2017 6:12:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@6c2ffd23, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 6:12:52 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@100e64c2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 6:12:53 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d89cfe6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 6:12:53 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@763cfc5c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 30 May, 2017 6:28:00 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e4d1378, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+Total time: 0 s, completed 30 May, 2017 6:28:00 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7fa430f7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+Total time: 0 s, completed 30 May, 2017 6:32:01 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 22870@test-VirtualBox logs at Tue May 30 19:18:44 IST 2017, goodbye.

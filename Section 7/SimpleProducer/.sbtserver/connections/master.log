@@ -1,0 +1,13 @@
+New log file opened at Thu Apr 06 16:31:36 IST 2017 by 30059@test-VirtualBox
+Taking next connection to: 40228
+New client attempting to connect on port: 41498-40228
+  Address = /127.0.1.1:40228
+This client on port 41498 has uuid f12188e3-3aa6-49a6-a86d-97947e1326f6 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-f12188e3-3aa6-49a6-a86d-97947e1326f6
+Taking next connection to: 40228
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 30059@test-VirtualBox logs at Thu Apr 06 16:34:37 IST 2017, goodbye.

@@ -1,0 +1,135 @@
+[0m[[0minfo[0m] [0mRunning packt.sec07.CustomPartitionProducer pageHits 100[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-1 to terminate.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/test/Desktop/SimpleProducer/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.10.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.10.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-5.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/com.yammer.metrics/metrics-core/jars/metrics-core-2.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.21.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/com.101tec/zkclient/jars/zkclient-0.10.jar[0m
+[0m[[0mdebug[0m] [0m	/home/test/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.9.jar[0m
+[0m[[31merror[0m] [0m(run-main-1) org.apache.kafka.common.KafkaException: Failed to construct kafka producer[0m
+org.apache.kafka.common.KafkaException: Failed to construct kafka producer
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:342)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:191)
+	at packt.sec07.CustomPartitionProducer.<init>(CustomPartitionProducer.scala:55)
+	at packt.sec07.CustomPartitionProducer$.main(CustomPartitionProducer.scala:28)
+	at packt.sec07.CustomPartitionProducer.main(CustomPartitionProducer.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.kafka.common.KafkaException: Could not instantiate class packt.sec07.SimplePartitioner Does it have a public no-argument constructor?
+	at org.apache.kafka.common.utils.Utils.newInstance(Utils.java:342)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:203)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:228)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:191)
+	at packt.sec07.CustomPartitionProducer.<init>(CustomPartitionProducer.scala:55)
+	at packt.sec07.CustomPartitionProducer$.main(CustomPartitionProducer.scala:28)
+	at packt.sec07.CustomPartitionProducer.main(CustomPartitionProducer.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InstantiationException: packt.sec07.SimplePartitioner
+	at java.lang.Class.newInstance(Class.java:427)
+	at org.apache.kafka.common.utils.Utils.newInstance(Utils.java:338)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:203)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:228)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:191)
+	at packt.sec07.CustomPartitionProducer.<init>(CustomPartitionProducer.scala:55)
+	at packt.sec07.CustomPartitionProducer$.main(CustomPartitionProducer.scala:28)
+	at packt.sec07.CustomPartitionProducer.main(CustomPartitionProducer.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoSuchMethodException: packt.sec07.SimplePartitioner.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.apache.kafka.common.utils.Utils.newInstance(Utils.java:338)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:203)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:228)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:191)
+	at packt.sec07.CustomPartitionProducer.<init>(CustomPartitionProducer.scala:55)
+	at packt.sec07.CustomPartitionProducer$.main(CustomPartitionProducer.scala:28)
+	at packt.sec07.CustomPartitionProducer.main(CustomPartitionProducer.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:748)
+[0m[[0mdebug[0m] [0m	Thread run-main-1 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1830)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1830)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1830)
+	at sbt.Defaults$.toError(Defaults.scala:35)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:695)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$36$$anonfun$apply$37.apply(Defaults.scala:693)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code: 1[0m

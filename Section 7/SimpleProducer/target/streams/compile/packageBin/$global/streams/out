@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /home/test/Desktop/SimpleProducer/target/scala-2.10/simple-project_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	packt[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt[0m
+[0m[[0mdebug[0m] [0m	packt/sec07/CustomPartitionProducer$$anonfun$packt$sec07$CustomPartitionProducer$$publishMessage$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07/CustomPartitionProducer$$anonfun$packt$sec07$CustomPartitionProducer$$publishMessage$1.class[0m
+[0m[[0mdebug[0m] [0m	packt/sec07/SimplePartitioner.class[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07/SimplePartitioner.class[0m
+[0m[[0mdebug[0m] [0m	packt/sec07/SimplePartitioner$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07/SimplePartitioner$.class[0m
+[0m[[0mdebug[0m] [0m	packt/sec07[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07[0m
+[0m[[0mdebug[0m] [0m	packt/sec07/CustomPartitionProducer$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07/CustomPartitionProducer$.class[0m
+[0m[[0mdebug[0m] [0m	packt/sec07/CustomPartitionProducer.class[0m
+[0m[[0mdebug[0m] [0m	  /home/test/Desktop/SimpleProducer/target/scala-2.10/classes/packt/sec07/CustomPartitionProducer.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

@@ -1,0 +1,14 @@
+run smackTopic 100
+run localhost:2181 testGroup smackTopic
+run smackTopic 10
+run localhost:2181 testGroup smackTopic
+run smackTopic 10
+run localhost:2181 testGroup smackTopic
+run smackTopic 100
+run localhost:2181 testGroup smackTopic
+compile
+run smackTopic1 100
+run localhost:2181 testGroup smackTopic1 3
+package
+run
+run pageHits 100

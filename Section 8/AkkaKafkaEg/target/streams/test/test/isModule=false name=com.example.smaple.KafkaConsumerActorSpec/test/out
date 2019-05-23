@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActors with different configuration types[0m[0m
+[0m[[0minfo[0m] [0m[32m- should each consume a message successfully[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActor configured via props[0m[0m
+[0m[[0minfo[0m] [0m[32m- should consume a sequence of messages[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActor configured via props[0m[0m
+[0m[[0minfo[0m] [0m[32m- should terminate itself if downstream actor terminates[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActor configured in manual partition mode[0m[0m
+[0m[[0minfo[0m] [0m[32m- should consume a sequence of messages[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActor configured in manual offset mode[0m[0m
+[0m[[0minfo[0m] [0m[32m- should consume a sequence of messages[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActor configured in Auto Partition with manual offset mode[0m[0m
+[0m[[0minfo[0m] [0m[32m- should consume a sequence of messages[0m[0m

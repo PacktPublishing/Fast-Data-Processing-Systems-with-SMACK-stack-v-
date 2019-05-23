@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.typesafe.play:play-functional_2.11:2.5.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.12.jar!/"/>
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/docs/play-functional_2.11-2.5.12-javadoc.jar!/"/>
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.5.12-sources.jar!/"/>
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,526 @@
+New log file opened at Fri Mar 03 17:32:09 IST 2017 by 17023@test-VirtualBox
+jvm 17023@test-VirtualBox
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.121-b13
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/test/Drone
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/test/Drone/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Drone/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Drone/project, returning: (drone-build)
+Loading project definition from /home/test/Drone/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30f9327a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/test/Drone
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Drone, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Drone, returning: (drone)
+Set current project to hello-akka (in build file:/home/test/Drone/)
+Reapplying settings...
+Set current project to hello-akka (in build file:/home/test/Drone/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@295412b5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 3 Mar, 2017 5:32:16 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Drone/}drone/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@31de050, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 3 Mar, 2017 5:32:18 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Drone/}drone/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@18db7d97, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 1 s, completed 3 Mar, 2017 5:32:18 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e18ea99, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 75978ea3, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/home/test/Drone/target/scala-2.11/test-classes:/home/test/Drone/target/scala-2.11/classes:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.0/jars/akka-actor_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.0/jars/akka-testkit_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/junit/junit/4.12/jars/junit.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.novocode/junit-interface/0.11/jars/junit-interface.jar:/home/test/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+Read from stdout: val greeter = TestActorRef(Props[Greeter])
+    val greeter = TestActorRef(Props[Greeter])
+Read from stdout: ^
+                                     ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+Read from stdout: greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+    greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+Read from stdout: ^
+                                         ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+Read from stdout: val greeter = system.actorOf(Props[Greeter], "greeter")
+    val greeter = system.actorOf(Props[Greeter], "greeter")
+Read from stdout: ^
+                                       ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+Read from stdout: expectMsgType[Greeting].message.toString should be("hello, testkit")
+    expectMsgType[Greeting].message.toString should be("hello, testkit")
+Read from stdout: ^
+                  ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 5 s, completed 3 Mar, 2017 5:32:24 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Drone/}drone/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@8f3323, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 3 Mar, 2017 5:32:24 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain MonitoringTest
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7a14da01, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 3 Mar, 2017 5:33:16 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5acb5adb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/test/Drone/src/main/scala/MonitoringTest.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/test/Drone/src/main/scala/MonitoringTest.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/test/Drone/src/main/scala/MonitoringTest.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/test/Drone/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/test/Drone/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4d78cdc3, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/home/test/Drone/target/scala-2.11/classes:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.0/jars/akka-actor_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.0/jars/akka-testkit_2.11.jar
+Read from stdout: there was one deprecation warning; re-run with -deprecation for details
+there was one deprecation warning; re-run with -deprecation for details
+Read from stdout: one warning found
+one warning found
+Scala compilation took 3.042856706 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed 3 Mar, 2017 5:36:05 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@61f253bd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 3 Mar, 2017 5:36:42 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a9187e9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 5a06a5bf, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/home/test/Drone/target/scala-2.11/test-classes:/home/test/Drone/target/scala-2.11/classes:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.0/jars/akka-actor_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.0/jars/akka-testkit_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/junit/junit/4.12/jars/junit.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.novocode/junit-interface/0.11/jars/junit-interface.jar:/home/test/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+Read from stdout: val greeter = TestActorRef(Props[Greeter])
+    val greeter = TestActorRef(Props[Greeter])
+Read from stdout: ^
+                                     ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+Read from stdout: greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+    greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+Read from stdout: ^
+                                         ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+Read from stdout: val greeter = system.actorOf(Props[Greeter], "greeter")
+    val greeter = system.actorOf(Props[Greeter], "greeter")
+Read from stdout: ^
+                                       ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+Read from stdout: expectMsgType[Greeting].message.toString should be("hello, testkit")
+    expectMsgType[Greeting].message.toString should be("hello, testkit")
+Read from stdout: ^
+                  ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 3 Mar, 2017 5:36:43 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@c6d8412, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 3 Mar, 2017 5:38:17 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@ba1c9a7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/test/Drone/src/test/scala/HelloAkkaSpec.scala, /home/test/Drone/src/test/java/HelloAkkaTest.java)
+
+Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Compiling 1 Scala source and 1 Java source to /home/test/Drone/target/scala-2.11/test-classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1859d8de, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.6/jars/scala-library.jar
+	-classpath
+	/home/test/Drone/target/scala-2.11/test-classes:/home/test/Drone/target/scala-2.11/classes:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-actor_2.11/2.4.0/jars/akka-actor_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/bundles/config.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe.akka/akka-testkit_2.11/2.4.0/jars/akka-testkit_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar:/home/test/Desktop/activator-dist-1.3.12/repository/junit/junit/4.12/jars/junit.jar:/home/test/Desktop/activator-dist-1.3.12/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar:/home/test/Desktop/activator-dist-1.3.12/repository/com.novocode/junit-interface/0.11/jars/junit-interface.jar:/home/test/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:21: not found: type Greeter
+Read from stdout: val greeter = TestActorRef(Props[Greeter])
+    val greeter = TestActorRef(Props[Greeter])
+Read from stdout: ^
+                                     ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:23: not found: type Greeter
+Read from stdout: greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+    greeter.underlyingActor.asInstanceOf[Greeter].greeting should be("hello, testkit")
+Read from stdout: ^
+                                         ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:27: not found: type Greeter
+Read from stdout: val greeter = system.actorOf(Props[Greeter], "greeter")
+    val greeter = system.actorOf(Props[Greeter], "greeter")
+Read from stdout: ^
+                                       ^
+Read from stdout: /home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+/home/test/Drone/src/test/scala/HelloAkkaSpec.scala:30: not found: type Greeting
+Read from stdout: expectMsgType[Greeting].message.toString should be("hello, testkit")
+    expectMsgType[Greeting].message.toString should be("hello, testkit")
+Read from stdout: ^
+                  ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (test:compileIncremental) Compilation failed
+(test:compileIncremental) Compilation failed
+Total time: 1 s, completed 3 Mar, 2017 5:38:18 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request

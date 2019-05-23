@@ -1,0 +1,42 @@
+[0m[[0minfo[0m] [0m[32mKafkaProducerActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mKafkaConsumerActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mPingPongActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[31mcom.example.PingPongActorSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31mcom.example.smaple.KafkaConsumerActorSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31mcom.example.smaple.KafkaProducerActorSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

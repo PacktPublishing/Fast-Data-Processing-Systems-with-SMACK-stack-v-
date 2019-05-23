@@ -1,0 +1,31 @@
+New log file opened at Fri Mar 03 17:32:09 IST 2017 by 17023@test-VirtualBox
+Taking next connection to: 43747
+New client attempting to connect on port: 46328-43747
+  Address = /127.0.1.1:43747
+This client on port 46328 has uuid c79ac036-df39-460b-be12-06be7c7a2d49 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c79ac036-df39-460b-be12-06be7c7a2d49
+Taking next connection to: 43747
+New client attempting to connect on port: 46330-43747
+  Address = /127.0.1.1:43747
+Handshake exception on socket: 46330
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 43747
+New client attempting to connect on port: 46332-43747
+  Address = /127.0.1.1:43747
+This client on port 46332 has uuid 8ea5c0be-2f38-4a32-84a1-4b1e51871b36 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-c79ac036-df39-460b-be12-06be7c7a2d49, activator-8ea5c0be-2f38-4a32-84a1-4b1e51871b36
+Taking next connection to: 43747
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 43747
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 43747

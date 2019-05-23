@@ -1,0 +1,5 @@
+#Successful Tests
+#Tue May 30 17:21:25 IST 2017
+com.example.smaple.SampleSubmitterSpec=1496145055264
+com.example.smaple.KafkaConsumerActorSpec=1496145085341
+com.example.smaple.KafkaProducerActorSpec=1496145074255

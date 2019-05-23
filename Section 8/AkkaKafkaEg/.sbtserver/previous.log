@@ -1,0 +1,983 @@
+New log file opened at Tue May 30 17:15:19 IST 2017 by 19997@test-VirtualBox
+jvm 19997@test-VirtualBox
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.131-b11
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/test/Desktop/AkkaKafkaEg
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/test/Desktop/AkkaKafkaEg/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg/project, returning: (akkakafkaeg-build)
+Loading project definition from /home/test/Desktop/AkkaKafkaEg/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@17d244d4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/test/Desktop/AkkaKafkaEg
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaKafkaEg, returning: (akkakafkaeg)
+Set current project to kafka-akka-example (in build file:/home/test/Desktop/AkkaKafkaEg/)
+Reapplying settings...
+Set current project to kafka-akka-example (in build file:/home/test/Desktop/AkkaKafkaEg/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@c9fb911, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 5:15:24 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b2f06e0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 5:15:24 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/test/Desktop/AkkaKafkaEg/}akkakafkaeg/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@347e5b65, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 30 May, 2017 5:15:25 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4c78c035, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 30 May, 2017 5:16:16 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@6177457f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+Total time: 1 s, completed 30 May, 2017 5:16:17 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f9dc6c5, check cycles: false
+Exception in thread "Thread-3" java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:170)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at sbt.BasicIO$$anonfun$processFully$1$$anonfun$apply$8.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$$anonfun$processFully$1$$anonfun$apply$8.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$.readFully$1(ProcessImpl.scala:63)
+	at sbt.BasicIO$.processLinesFully(ProcessImpl.scala:69)
+	at sbt.BasicIO$$anonfun$processFully$1.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$$anonfun$processFully$1.apply(ProcessImpl.scala:55)
+	at sbt.SimpleProcessBuilder$$anonfun$3.apply$mcV$sp(ProcessImpl.scala:354)
+	at sbt.Spawn$$anon$3.run(ProcessImpl.scala:17)
+Total time: 0 s, completed 30 May, 2017 5:18:27 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 143
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e9fb0ad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+Total time: 0 s, completed 30 May, 2017 5:18:43 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@2cad020c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@24966894))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@39aa78c2))
+Running TaskDef(com.example.PingPongActorSpec, org.scalatest.tools.Framework$$anon$1@24966894, false, [SuiteSelector])
+Running TaskDef(com.example.smaple.SampleSubmitterSpec, org.scalatest.tools.Framework$$anon$1@24966894, false, [SuiteSelector])
+Running TaskDef(com.example.smaple.KafkaConsumerActorSpec, org.scalatest.tools.Framework$$anon$1@24966894, false, [SuiteSelector])
+Running TaskDef(com.example.smaple.KafkaProducerActorSpec, org.scalatest.tools.Framework$$anon$1@24966894, false, [SuiteSelector])
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] [05/30/2017 17:20:49.151] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaConsumerActorSpec/user/$a] Subscribing in auto partition assignment mode to topics [XtaUi].
+[INFO] [05/30/2017 17:20:49.151] [MySpec-akka.actor.default-dispatcher-3] [akka://MySpec/user/PongTest] In PongActor - received start message - let the games begin
+[INFO] [05/30/2017 17:20:49.152] [MySpec-akka.actor.default-dispatcher-2] [akka://MySpec/user/PingTest/PingKafkaConsumerActor] Subscribing in auto partition assignment mode to topics [ping].
+[INFO] [05/30/2017 17:20:49.151] [MySpec-akka.actor.default-dispatcher-5] [akka://MySpec/user/PongTest/PingKafkaConsumerActor] Subscribing in auto partition assignment mode to topics [pong].
+[INFO] [05/30/2017 17:20:49.164] [MySpec-akka.actor.default-dispatcher-3] [akka://MySpec/user/PongTest] Placing PingPongMessage(ping) on ping
+Read from stdout: SampleSubmitterSpec:
+Read from stdout: A Sample Submitter
+Read from stdout: - must forward commands to Kafka
+[32mSampleSubmitterSpec:[0m
+[32mA Sample Submitter[0m
+[32m- must forward commands to Kafka[0m
+[INFO] [05/30/2017 17:20:55.621] [MySpec-akka.actor.default-dispatcher-3] [akka://MySpec/user/PingTest/$a] KafkaProducerActor stopping
+[INFO] [05/30/2017 17:20:55.624] [MySpec-akka.actor.default-dispatcher-6] [akka://MySpec/user/PongTest/PingKafkaConsumerActor] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:20:55.626] [MySpec-akka.actor.default-dispatcher-5] [akka://MySpec/user/PongTest/$a] KafkaProducerActor stopping
+[INFO] [05/30/2017 17:20:55.662] [MySpec-akka.actor.default-dispatcher-2] [akka://MySpec/user/PingTest/PingKafkaConsumerActor] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:20:55.713] [MySpec-akka.actor.default-dispatcher-8] [akka://MySpec/user/PingTest/PingKafkaConsumerActor] Message [cakesolutions.kafka.akka.KafkaConsumerActor$RevokeResume$] without sender to Actor[akka://MySpec/user/PingTest/PingKafkaConsumerActor#5911244] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[INFO] [05/30/2017 17:20:58.062] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaConsumerActorSpec/user/$a] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:20:58.193] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$b] Subscribing in auto partition assignment mode to topics [iSN0y].
+Read from stdout: PingPongActorSpec:
+Read from stdout: A Ping Pong Game
+Read from stdout: - must terminate after 3 ping messages *** FAILED ***
+Read from stdout: java.lang.AssertionError: assertion failed: timeout (10 seconds) while expecting 2 messages (got 0)
+Read from stdout: at scala.Predef$.assert(Predef.scala:219)
+Read from stdout: at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1(TestKit.scala:698)
+Read from stdout: at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1$adapted(TestKit.scala:695)
+Read from stdout: at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:234)
+Read from stdout: at scala.collection.immutable.Range.foreach(Range.scala:156)
+Read from stdout: at scala.collection.TraversableLike.map(TraversableLike.scala:234)
+Read from stdout: at scala.collection.TraversableLike.map$(TraversableLike.scala:227)
+Read from stdout: at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+Read from stdout: at akka.testkit.TestKitBase.receiveN_internal(TestKit.scala:695)
+Read from stdout: at akka.testkit.TestKitBase.expectMsgAllOf_internal(TestKit.scala:562)
+Read from stdout: ...
+Read from stdout: A Ping actor
+Read from stdout: - must terminate after 3 messages *** FAILED ***
+Read from stdout: akka.actor.InvalidActorNameException: actor name [PingTest] is not unique!
+Read from stdout: at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild(Children.scala:134)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)
+Read from stdout: at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.dungeon.Children.makeChild(Children.scala:272)
+Read from stdout: at akka.actor.dungeon.Children.attachChild(Children.scala:48)
+Read from stdout: at akka.actor.dungeon.Children.attachChild$(Children.scala:47)
+Read from stdout: at akka.actor.ActorCell.attachChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)
+Read from stdout: at com.example.PingPongActorSpec.$anonfun$new$4(PingPongActorSpec.scala:77)
+Read from stdout: ...
+Read from stdout: - must should place 2 Pong messages and GameOver on Pong topic message after 3 PingPong messages *** FAILED ***
+Read from stdout: akka.actor.InvalidActorNameException: actor name [PingTest] is not unique!
+Read from stdout: at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild(Children.scala:134)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)
+Read from stdout: at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.dungeon.Children.makeChild(Children.scala:272)
+Read from stdout: at akka.actor.dungeon.Children.attachChild(Children.scala:48)
+Read from stdout: at akka.actor.dungeon.Children.attachChild$(Children.scala:47)
+Read from stdout: at akka.actor.ActorCell.attachChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)
+Read from stdout: at com.example.PingPongActorSpec.$anonfun$new$5(PingPongActorSpec.scala:84)
+Read from stdout: ...
+Read from stdout: A Pong actor
+Read from stdout: - must terminate getting GameOver message *** FAILED ***
+Read from stdout: akka.actor.InvalidActorNameException: actor name [PongTest] is not unique!
+Read from stdout: at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild(Children.scala:134)
+Read from stdout: at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)
+Read from stdout: at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.dungeon.Children.makeChild(Children.scala:272)
+Read from stdout: at akka.actor.dungeon.Children.attachChild(Children.scala:48)
+Read from stdout: at akka.actor.dungeon.Children.attachChild$(Children.scala:47)
+Read from stdout: at akka.actor.ActorCell.attachChild(ActorCell.scala:362)
+Read from stdout: at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)
+Read from stdout: at com.example.PingPongActorSpec.$anonfun$new$9(PingPongActorSpec.scala:97)
+Read from stdout: ...
+[32mPingPongActorSpec:[0m
+[32mA Ping Pong Game[0m
+[31m- must terminate after 3 ping messages *** FAILED ***[0m
+[31m  java.lang.AssertionError: assertion failed: timeout (10 seconds) while expecting 2 messages (got 0)[0m
+[31m  at scala.Predef$.assert(Predef.scala:219)[0m
+[31m  at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1(TestKit.scala:698)[0m
+[31m  at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1$adapted(TestKit.scala:695)[0m
+[31m  at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:234)[0m
+[31m  at scala.collection.immutable.Range.foreach(Range.scala:156)[0m
+[31m  at scala.collection.TraversableLike.map(TraversableLike.scala:234)[0m
+[31m  at scala.collection.TraversableLike.map$(TraversableLike.scala:227)[0m
+[31m  at scala.collection.AbstractTraversable.map(Traversable.scala:104)[0m
+[31m  at akka.testkit.TestKitBase.receiveN_internal(TestKit.scala:695)[0m
+[31m  at akka.testkit.TestKitBase.expectMsgAllOf_internal(TestKit.scala:562)[0m
+[31m  ...[0m
+[32mA Ping actor[0m
+[31m- must terminate after 3 messages *** FAILED ***[0m
+[31m  akka.actor.InvalidActorNameException: actor name [PingTest] is not unique![0m
+[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m
+[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m
+[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m
+[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m
+[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m
+[31m  at com.example.PingPongActorSpec.$anonfun$new$4(PingPongActorSpec.scala:77)[0m
+[31m  ...[0m
+[31m- must should place 2 Pong messages and GameOver on Pong topic message after 3 PingPong messages *** FAILED ***[0m
+[31m  akka.actor.InvalidActorNameException: actor name [PingTest] is not unique![0m
+[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m
+[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m
+[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m
+[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m
+[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m
+[31m  at com.example.PingPongActorSpec.$anonfun$new$5(PingPongActorSpec.scala:84)[0m
+[31m  ...[0m
+[32mA Pong actor[0m
+[31m- must terminate getting GameOver message *** FAILED ***[0m
+[31m  akka.actor.InvalidActorNameException: actor name [PongTest] is not unique![0m
+[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m
+[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m
+[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m
+[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m
+[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m
+[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m
+[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m
+[31m  at com.example.PingPongActorSpec.$anonfun$new$9(PingPongActorSpec.scala:97)[0m
+[31m  ...[0m
+[INFO] [05/30/2017 17:21:03.225] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$b] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:21:03.369] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$c] Subscribing in auto partition assignment mode to topics [9hA5C].
+[INFO] [05/30/2017 17:21:08.394] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$c] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:21:08.544] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$d] Subscribing in auto partition assignment mode to topics [LUrgD].
+[INFO] [05/30/2017 17:21:08.595] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaConsumerActorSpec/system/testProbe-8] Message [cakesolutions.kafka.akka.ConsumerRecords] from Actor[akka://KafkaConsumerActorSpec/user/$d#1498381146] to Actor[akka://KafkaConsumerActorSpec/system/testProbe-8#512641951] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[ERROR] [05/30/2017 17:21:08.637] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaConsumerActorSpec/user/$d] Monitored actor [Actor[akka://KafkaConsumerActorSpec/system/testProbe-8#512641951]] terminated (akka.actor.DeathPactException)
+[INFO] [05/30/2017 17:21:08.637] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-5] [akka://KafkaConsumerActorSpec/user/$d] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:08.780] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$e] Subscribing in manual partition assignment mode to topic/partitions [rZhR6-0].
+[INFO] [05/30/2017 17:21:09.619] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$d] Message [cakesolutions.kafka.akka.PollScheduling$Poll] without sender to Actor[akka://KafkaConsumerActorSpec/user/$d#1498381146] was not delivered. [2] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.
+[INFO] [05/30/2017 17:21:13.793] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-5] [akka://KafkaConsumerActorSpec/user/$e] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:21:14.013] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$f] Subscribing in manual partition assignment mode to partitions with offsets [Offsets(nHZta-0 = 0)]
+[INFO] [05/30/2017 17:21:14.013] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$f] Seek to nHZta-0, 0
+[INFO] [05/30/2017 17:21:14.193] [KafkaProducerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaProducerActorSpec/user/$b] KafkaProducerActor stopping
+[INFO] [05/30/2017 17:21:14.193] [KafkaProducerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaProducerActorSpec/user/$a] KafkaProducerActor stopping
+Read from stdout: KafkaProducerActorSpec:
+Read from stdout: KafkaProducerActor
+Read from stdout: - should write a given batch to Kafka
+Read from stdout: KafkaProducerActor
+Read from stdout: - should write a given batch to Kafka, requiring no response
+[32mKafkaProducerActorSpec:[0m
+[32mKafkaProducerActor[0m
+[32m- should write a given batch to Kafka[0m
+[32mKafkaProducerActor[0m
+[32m- should write a given batch to Kafka, requiring no response[0m
+[INFO] [05/30/2017 17:21:19.027] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-5] [akka://KafkaConsumerActorSpec/user/$f] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:21:19.183] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$g] Subscribing in auto partition assignment with manual offset mode to topics [9n8CH].
+[INFO] [05/30/2017 17:21:24.206] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$g] Unsubscribing from Kafka
+[INFO] [05/30/2017 17:21:25.268] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$a] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:25.268] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-2] [akka://KafkaConsumerActorSpec/user/$b] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:25.268] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-4] [akka://KafkaConsumerActorSpec/user/$c] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:25.277] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-3] [akka://KafkaConsumerActorSpec/user/$e] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:25.281] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-5] [akka://KafkaConsumerActorSpec/user/$f] KafkaConsumerActor stopping
+[INFO] [05/30/2017 17:21:25.284] [KafkaConsumerActorSpec-akka.actor.default-dispatcher-6] [akka://KafkaConsumerActorSpec/user/$g] KafkaConsumerActor stopping
+Read from stdout: KafkaConsumerActorSpec:
+Read from stdout: KafkaConsumerActors with different configuration types
+Read from stdout: - should each consume a message successfully
+Read from stdout: KafkaConsumerActor configured via props
+Read from stdout: - should consume a sequence of messages
+Read from stdout: KafkaConsumerActor configured via props
+Read from stdout: - should terminate itself if downstream actor terminates
+Read from stdout: KafkaConsumerActor configured in manual partition mode
+Read from stdout: - should consume a sequence of messages
+Read from stdout: KafkaConsumerActor configured in manual offset mode
+Read from stdout: - should consume a sequence of messages
+Read from stdout: KafkaConsumerActor configured in Auto Partition with manual offset mode
+Read from stdout: - should consume a sequence of messages
+[32mKafkaConsumerActorSpec:[0m
+[32mKafkaConsumerActors with different configuration types[0m
+[32m- should each consume a message successfully[0m
+[32mKafkaConsumerActor configured via props[0m
+[32m- should consume a sequence of messages[0m
+[32mKafkaConsumerActor configured via props[0m
+[32m- should terminate itself if downstream actor terminates[0m
+[32mKafkaConsumerActor configured in manual partition mode[0m
+[32m- should consume a sequence of messages[0m
+[32mKafkaConsumerActor configured in manual offset mode[0m
+[32m- should consume a sequence of messages[0m
+[32mKafkaConsumerActor configured in Auto Partition with manual offset mode[0m
+[32m- should consume a sequence of messages[0m
+Read from stdout: Run completed in 55 seconds, 724 milliseconds.
+Read from stdout: Total number of tests run: 13
+Read from stdout: Suites: completed 4, aborted 0
+Read from stdout: Tests: succeeded 9, failed 4, canceled 0, ignored 0, pending 0
+Read from stdout: *** 4 TESTS FAILED ***
+Run completed in 55 seconds, 724 milliseconds.
+Total number of tests run: 13
+Suites: completed 4, aborted 0
+Tests: succeeded 9, failed 4, canceled 0, ignored 0, pending 0
+*** 4 TESTS FAILED ***
+Passed tests:
+	com.example.smaple.SampleSubmitterSpec
+	com.example.smaple.KafkaConsumerActorSpec
+	com.example.smaple.KafkaProducerActorSpec
+Read from stdout: Failed tests:
+Failed tests:
+Read from stdout: 	com.example.PingPongActorSpec
+	com.example.PingPongActorSpec
+Read from stdout: (test:test) sbt.TestsFailedException: Tests unsuccessful
+(test:test) sbt.TestsFailedException: Tests unsuccessful
+Total time: 58 s, completed 30 May, 2017 5:21:25 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@3e408510, check cycles: false
+Total time: 1 s, completed 30 May, 2017 5:46:08 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@2a531b5b, check cycles: false
+Exception in thread "Thread-6" java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:170)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at sbt.BasicIO$$anonfun$processFully$1$$anonfun$apply$8.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$$anonfun$processFully$1$$anonfun$apply$8.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$.readFully$1(ProcessImpl.scala:63)
+	at sbt.BasicIO$.processLinesFully(ProcessImpl.scala:69)
+	at sbt.BasicIO$$anonfun$processFully$1.apply(ProcessImpl.scala:58)
+	at sbt.BasicIO$$anonfun$processFully$1.apply(ProcessImpl.scala:55)
+	at sbt.SimpleProcessBuilder$$anonfun$3.apply$mcV$sp(ProcessImpl.scala:354)
+	at sbt.Spawn$$anon$3.run(ProcessImpl.scala:17)
+Total time: 1 s, completed 30 May, 2017 5:46:09 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-3" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@36afa4d4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/test/Desktop/AkkaKafkaEg/src/main/resources/logback.xml,/home/test/Desktop/AkkaKafkaEg/target/scala-2.12/classes/logback.xml)
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'com.novocode.junit.JUnitFramework' not present.
+Subclass fingerprints: List((org.scalatest.Suite,false,org.scalatest.tools.Framework$$anon$1@12ef4bf4))
+Annotation fingerprints: List((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@7e8bf139))
+Running TaskDef(com.example.smaple.KafkaProducerActorSpec, org.scalatest.tools.Framework$$anon$1@12ef4bf4, false, [SuiteSelector])
+Running TaskDef(com.example.PingPongActorSpec, org.scalatest.tools.Framework$$anon$1@12ef4bf4, false, [SuiteSelector])
+Running TaskDef(com.example.smaple.KafkaConsumerActorSpec, org.scalatest.tools.Framework$$anon$1@12ef4bf4, false, [SuiteSelector])
+Running TaskDef(com.example.smaple.SampleSubmitterSpec, org.scalatest.tools.Framework$$anon$1@12ef4bf4, false, [SuiteSelector])
+
+Canceling execution...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+error while starting up loggers
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait(Promise.scala:244)
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:254)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at akka.event.LoggingBus.addLogger(Logging.scala:185)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$4(Logging.scala:120)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$3(Logging.scala:119)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$map$2(TraversableLike.scala:739)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:71)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:70)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$WithFilter.map(TraversableLike.scala:738)
+	at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:116)
+	at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+	at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+	at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+	at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+	at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:232)
+	at com.example.smaple.KafkaProducerActorSpec.<init>(KafkaProducerActorSpec.scala:16)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:435)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+error while starting up loggers
+error while starting up loggers
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait(Promise.scala:244)
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:254)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at akka.event.LoggingBus.addLogger(Logging.scala:185)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$4(Logging.scala:120)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$3(Logging.scala:119)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$map$2(TraversableLike.scala:739)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:71)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:70)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$WithFilter.map(TraversableLike.scala:738)
+	at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:116)
+	at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+	at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+	at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+	at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+	at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:232)
+	at com.example.smaple.KafkaConsumerActorSpec.<init>(KafkaConsumerActorSpec.scala:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:435)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait(Promise.scala:244)
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:254)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:259)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:215)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:142)
+	at akka.event.LoggingBus.addLogger(Logging.scala:185)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$4(Logging.scala:120)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at akka.event.LoggingBus.$anonfun$startDefaultLoggers$3(Logging.scala:119)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$map$2(TraversableLike.scala:739)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:71)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:70)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableLike$WithFilter.map(TraversableLike.scala:738)
+	at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:116)
+	at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+	at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+	at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+	at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+	at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+	at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+	at akka.actor.ActorSystem$.apply(ActorSystem.scala:232)
+	at com.example.PingPongActorSpec.<init>(PingPongActorSpec.scala:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:435)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Read from stdout: KafkaProducerActorSpec:
+Read from stdout: KafkaConsumerActorSpec:
+Read from stdout: PingPongActorSpec:
+Read from stdout: com.example.PingPongActorSpec *** ABORTED ***
+Read from stdout: akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException]
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+Read from stdout: at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+Read from stdout: at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+Read from stdout: at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+Read from stdout: at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+Read from stdout: ...
+Read from stdout: com.example.smaple.KafkaConsumerActorSpec *** ABORTED ***
+Read from stdout: akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException]
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+Read from stdout: at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+Read from stdout: at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+Read from stdout: at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+Read from stdout: at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+Read from stdout: ...
+Read from stdout: com.example.smaple.KafkaProducerActorSpec *** ABORTED ***
+Read from stdout: akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException]
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)
+Read from stdout: at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)
+Read from stdout: at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)
+Read from stdout: at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)
+Read from stdout: at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)
+Read from stdout: at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)
+Read from stdout: at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)
+Read from stdout: at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)
+Read from stdout: ...
+[32mKafkaProducerActorSpec:[0m
+[32mKafkaConsumerActorSpec:[0m
+[32mPingPongActorSpec:[0m
+[31mcom.example.PingPongActorSpec *** ABORTED ***[0m
+[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m
+[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m
+[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m
+[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m
+[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m
+[31m  ...[0m
+[31mcom.example.smaple.KafkaConsumerActorSpec *** ABORTED ***[0m
+[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m
+[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m
+[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m
+[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m
+[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m
+[31m  ...[0m
+[31mcom.example.smaple.KafkaProducerActorSpec *** ABORTED ***[0m
+[31m  akka.ConfigurationException: Could not start logger due to [java.lang.InterruptedException][0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers(Logging.scala:150)[0m
+[31m  at akka.event.LoggingBus.startDefaultLoggers$(Logging.scala:102)[0m
+[31m  at akka.event.EventStream.startDefaultLoggers(EventStream.scala:23)[0m
+[31m  at akka.actor.LocalActorRefProvider.init(ActorRefProvider.scala:652)[0m
+[31m  at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:782)[0m
+[31m  at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl._start(ActorSystem.scala:779)[0m
+[31m  at akka.actor.ActorSystemImpl.start(ActorSystem.scala:795)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:244)[0m
+[31m  at akka.actor.ActorSystem$.apply(ActorSystem.scala:287)[0m
+[31m  ...[0m
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@66944d07 rejected from java.util.concurrent.ThreadPoolExecutor@521dd618[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 215]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@66944d07 rejected from java.util.concurrent.ThreadPoolExecutor@521dd618[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 215]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ca1d562, check cycles: false
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1302)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+	at org.apache.curator.test.TestingZooKeeperMain.blockUntilStarted(TestingZooKeeperMain.java:92)
+	at org.apache.curator.test.TestingZooKeeperServer.start(TestingZooKeeperServer.java:157)
+	at org.apache.curator.test.TestingServer.start(TestingServer.java:153)
+	at cakesolutions.kafka.testkit.KafkaServer.startup(KafkaServer.scala:112)
+	at com.example.smaple.SampleSubmitterSpec.beforeAll(SampleSubmitterSpec.scala:45)
+	at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:212)
+	at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:210)
+	at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:208)
+	at com.example.smaple.SampleSubmitterSpec.run(SampleSubmitterSpec.scala:17)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Read from stdout: Could not run test com.example.smaple.SampleSubmitterSpec: java.lang.InterruptedException
+Could not run test com.example.smaple.SampleSubmitterSpec: java.lang.InterruptedException
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 30 May, 2017 5:46:43 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@318a0cb7, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@3d3eb543 rejected from java.util.concurrent.ThreadPoolExecutor@77b92516[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 51]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@3d3eb543 rejected from java.util.concurrent.ThreadPoolExecutor@77b92516[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 51]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain com.example.ApplicationMain
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@76d98408, check cycles: false
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/test/Desktop/AkkaKafkaEg/,akkakafkaeg)),Select(ConfigKey(compile)),Select(run),Global),runner)))
+registered more than once? Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/home/test/Desktop/AkkaKafkaEg/,akkakafkaeg)),Select(ConfigKey(compile)),Select(run),Global),runner)))
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request

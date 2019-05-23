@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="kafka-akka-example"
+		module="kafka-akka-example$sources_javadoc_2.11"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170510173705"/>
+	<dependencies>
+		<module organisation="com.typesafe.play" name="play-json_2.11">
+			<revision name="2.5.12" status="release" pubdate="20170123052645" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4735" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-json_2.11/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.12/play-json_2.11-2.5.12.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-json_2.11" type="jar" ext="jar" status="no" details="" size="648031" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.12/play-json_2.11-2.5.12.jar"/>
+					</artifact>
+					<artifact name="play-json_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="758179" time="2442" location="/home/test/.ivy2/cache/com.typesafe.play/play-json_2.11/docs/play-json_2.11-2.5.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.12/play-json_2.11-2.5.12-javadoc.jar"/>
+					</artifact>
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35821" time="1287" location="/home/test/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.12/play-json_2.11-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.7.8" status="release" pubdate="20160926211750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<metadata-artifact status="no" details="" size="7561" time="0" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61361" time="1826" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.7.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-datatype-jsr310" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="314747" time="2785" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/docs/jackson-datatype-jsr310-2.7.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-datatype-jsr310" type="jar" ext="jar" status="successful" details="" size="88878" time="1450" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/jars/jackson-datatype-jsr310-2.7.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.7.8" status="release" pubdate="20160926212101" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="7310" time="0" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16660" time="1783" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.7.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-datatype-jdk8" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="77742" time="1835" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/docs/jackson-datatype-jdk8-2.7.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-datatype-jdk8" type="jar" ext="jar" status="successful" details="" size="26385" time="3615" location="/home/test/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/jars/jackson-datatype-jdk8-2.7.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.7.8" status="release" pubdate="20160926202114" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="7698" time="0" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="890307" time="2216" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="successful" details="" size="1206911" time="3290" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.7.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="4573776" time="9835" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.7.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.7.8" status="release" pubdate="20160926201727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<metadata-artifact status="no" details="" size="6626" time="0" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53146" time="2233" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.7.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="successful" details="" size="50895" time="1320" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.7.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="330148" time="1635" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.7.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.7.8" status="release" pubdate="20160926201932" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<metadata-artifact status="no" details="" size="7079" time="0" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="266605" time="1551" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.7.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="908753" time="3564" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.7.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="jar" ext="jar" status="successful" details="" size="253358" time="2488" location="/home/test/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.7.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002065804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6423" time="0" location="/home/test/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="true" origin-location="/home/test/Desktop/activator-dist-1.3.12/repository/org.joda/joda-convert/1.8.1/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45686" time="2687" location="/home/test/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="111521" time="0" location="/home/test/Desktop/activator-dist-1.3.12/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar">
+						<origin-location is-local="true" location="/home/test/Desktop/activator-dist-1.3.12/repository/org.joda/joda-convert/1.8.1/jars/joda-convert.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="101952" time="1358" location="/home/test/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.8.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.6" status="release" pubdate="20161111023929" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6575" time="0" location="/home/test/.ivy2/cache/joda-time/joda-time/ivy-2.9.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1321729" time="4647" location="/home/test/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="632283" time="0" location="/home/test/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="777466" time="2596" location="/home/test/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.11">
+			<revision name="2.5.12" status="release" pubdate="20170123052554" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2546" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.12/play-datacommons_2.11-2.5.12.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.11" type="jar" ext="jar" status="no" details="" size="5713" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.12/play-datacommons_2.11-2.5.12.jar"/>
+					</artifact>
+					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1620" time="1714" location="/home/test/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/srcs/play-datacommons_2.11-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.12/play-datacommons_2.11-2.5.12-sources.jar"/>
+					</artifact>
+					<artifact name="play-datacommons_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="356924" time="3473" location="/home/test/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/docs/play-datacommons_2.11-2.5.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.12/play-datacommons_2.11-2.5.12-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.11">
+			<revision name="2.5.12" status="release" pubdate="20170123052629" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2543" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-functional_2.11/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.12/play-functional_2.11-2.5.12.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9828" time="1714" location="/home/test/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.12/play-functional_2.11-2.5.12-sources.jar"/>
+					</artifact>
+					<artifact name="play-functional_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="545585" time="1808" location="/home/test/.ivy2/cache/com.typesafe.play/play-functional_2.11/docs/play-functional_2.11-2.5.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.12/play-functional_2.11-2.5.12-javadoc.jar"/>
+					</artifact>
+					<artifact name="play-functional_2.11" type="jar" ext="jar" status="no" details="" size="411037" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.12/play-functional_2.11-2.5.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.11">
+			<revision name="2.5.12" status="release" pubdate="20170123052624" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3313" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.12/play-iteratees_2.11-2.5.12.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.11" type="jar" ext="jar" status="no" details="" size="783801" time="0" location="/home/test/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.12/play-iteratees_2.11-2.5.12.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="38040" time="4050" location="/home/test/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.12/play-iteratees_2.11-2.5.12-sources.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="547872" time="2327" location="/home/test/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/docs/play-iteratees_2.11-2.5.12-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.12/play-iteratees_2.11-2.5.12-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.11">
+			<revision name="0.7" status="release" pubdate="20140418004442" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2652" time="0" location="/home/test/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-stm/scala-stm_2.11/0.7/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="116149" time="1372" location="/home/test/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="929219" time="2202" location="/home/test/.ivy2/cache/org.scala-stm/scala-stm_2.11/docs/scala-stm_2.11-0.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/home/test/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
+						<origin-location is-local="false" location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-stm/scala-stm_2.11/0.7/jars/scala-stm_2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.cakesolutions" name="scala-kafka-client-akka_2.11">
+			<revision name="0.10.1.2" status="release" pubdate="20170120190457" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4188" time="0" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client-akka_2.11/ivy-0.10.1.2.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client-akka_2.11/0.10.1.2/scala-kafka-client-akka_2.11-0.10.1.2.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.10.1.2" rev-constraint-default="0.10.1.2" rev-constraint-dynamic="0.10.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-kafka-client-akka_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18241" time="6694" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client-akka_2.11/srcs/scala-kafka-client-akka_2.11-0.10.1.2-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client-akka_2.11/0.10.1.2/scala-kafka-client-akka_2.11-0.10.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-kafka-client-akka_2.11" type="jar" ext="jar" status="no" details="" size="205004" time="0" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client-akka_2.11/jars/scala-kafka-client-akka_2.11-0.10.1.2.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client-akka_2.11/0.10.1.2/scala-kafka-client-akka_2.11-0.10.1.2.jar"/>
+					</artifact>
+					<artifact name="scala-kafka-client-akka_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="498713" time="26701" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client-akka_2.11/docs/scala-kafka-client-akka_2.11-0.10.1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client-akka_2.11/0.10.1.2/scala-kafka-client-akka_2.11-0.10.1.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.7" status="release" pubdate="20150622161746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/home/test/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.7.xml" searched="false" origin-is-local="true" origin-location="/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.7/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="561516" time="1847" location="/home/test/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="4409889" time="6813" location="/home/test/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4576443" time="0" location="/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar">
+						<origin-location is-local="true" location="/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.16" status="release" pubdate="20161219202221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/test/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3336113" time="0" location="/home/test/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="403357" time="10282" location="/home/test/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="4099066" time="5779" location="/home/test/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.4.16-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831070233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3025" time="0" location="/home/test/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="true" origin-location="/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang.modules/scala-java8-compat_2.11/0.7.0/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="jar" ext="jar" status="successful" details="" size="582358" time="2341" location="/home/test/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/jars/scala-java8-compat_2.11-0.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar"/>
+					</artifact>
+					<artifact name="scala-java8-compat_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1193196" time="3102" location="/home/test/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/docs/scala-java8-compat_2.11-0.7.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12469" time="3208" location="/home/test/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.cakesolutions" name="scala-kafka-client_2.11">
+			<revision name="0.10.1.2" status="release" pubdate="20170120190506" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3452" time="0" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client_2.11/ivy-0.10.1.2.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client_2.11/0.10.1.2/scala-kafka-client_2.11-0.10.1.2.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.10.1.2" rev-constraint-default="0.10.1.2" rev-constraint-dynamic="0.10.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-kafka-client_2.11" type="jar" ext="jar" status="no" details="" size="54743" time="0" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client_2.11/jars/scala-kafka-client_2.11-0.10.1.2.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client_2.11/0.10.1.2/scala-kafka-client_2.11-0.10.1.2.jar"/>
+					</artifact>
+					<artifact name="scala-kafka-client_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8425" time="3297" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client_2.11/srcs/scala-kafka-client_2.11-0.10.1.2-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client_2.11/0.10.1.2/scala-kafka-client_2.11-0.10.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-kafka-client_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="403345" time="7277" location="/home/test/.ivy2/cache/net.cakesolutions/scala-kafka-client_2.11/docs/scala-kafka-client_2.11-0.10.1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/cakesolutions/maven/net/cakesolutions/scala-kafka-client_2.11/0.10.1.2/scala-kafka-client_2.11-0.10.1.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="0.10.1.1" status="release" pubdate="20161216024245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3527" time="0" location="/home/test/.ivy2/cache/org.apache.kafka/kafka-clients/ivy-0.10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.10.1.1" rev-constraint-default="0.10.1.1" rev-constraint-dynamic="0.10.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="591459" time="5364" location="/home/test/.ivy2/cache/org.apache.kafka/kafka-clients/srcs/kafka-clients-0.10.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="kafka-clients" type="jar" ext="jar" status="no" details="" size="797803" time="0" location="/home/test/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.10.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar"/>
+					</artifact>
+					<artifact name="kafka-clients" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="497387" time="4142" location="/home/test/.ivy2/cache/org.apache.kafka/kafka-clients/docs/kafka-clients-0.10.1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160404143640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5188" time="0" location="/home/test/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.slf4j/slf4j-api/1.7.21/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55663" time="6673" location="/home/test/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41071" time="0" location="/home/test/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar">
+						<origin-location is-local="false" location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.slf4j/slf4j-api/1.7.21/jars/slf4j-api.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="241095" time="2513" location="/home/test/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.21-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.2.6" status="release" pubdate="20160602231933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3282" time="0" location="/home/test/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.2.6" rev-constraint-default="1.1.2.6" rev-constraint-dynamic="1.1.2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="snappy-java" type="jar" ext="jar" status="successful" details="" size="1056168" time="3484" location="/home/test/.ivy2/cache/org.xerial.snappy/snappy-java/jars/snappy-java-1.1.2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1049625" time="4772" location="/home/test/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6-sources.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="101665" time="2340" location="/home/test/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.2.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.jpountz.lz4" name="lz4">
+			<revision name="1.3.0" status="release" pubdate="20141127021014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2738" time="0" location="/home/test/.ivy2/cache/net.jpountz.lz4/lz4/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lz4" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="86405" time="2385" location="/home/test/.ivy2/cache/net.jpountz.lz4/lz4/docs/lz4-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="lz4" type="jar" ext="jar" status="no" details="" size="236880" time="0" location="/home/test/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar"/>
+					</artifact>
+					<artifact name="lz4" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="50577" time="1317" location="/home/test/.ivy2/cache/net.jpountz.lz4/lz4/srcs/lz4-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508114611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2864" time="0" location="/home/test/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="true" origin-location="/home/test/Desktop/activator-dist-1.3.12/repository/com.typesafe/config/1.3.0/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="jar" ext="jar" status="successful" details="" size="277782" time="3499" location="/home/test/.ivy2/cache/com.typesafe/config/jars/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="167084" time="1562" location="/home/test/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="442657" time="1879" location="/home/test/.ivy2/cache/com.typesafe/config/docs/config-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304102633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/home/test/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml"/>
+				<caller organisation="kafka-akka-example" name="kafka-akka-example$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/home/test/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="file:/home/test/Desktop/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="21970519" time="192760" location="/home/test/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="911686" time="2905" location="/home/test/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

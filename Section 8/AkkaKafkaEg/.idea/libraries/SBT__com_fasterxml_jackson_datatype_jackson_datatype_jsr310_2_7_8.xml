@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/jars/jackson-datatype-jsr310-2.7.8.jar!/"/>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar!/"/>
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/docs/jackson-datatype-jsr310-2.7.8-javadoc.jar!/"/>
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.7.8-sources.jar!/"/>
+    </SOURCES>
+  </library>
+</component>

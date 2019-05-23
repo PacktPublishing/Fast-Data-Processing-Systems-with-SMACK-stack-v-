@@ -1,0 +1,73 @@
+New log file opened at Sat May 13 16:03:18 IST 2017 by 7221@test-VirtualBox
+jvm 7221@test-VirtualBox
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.131-b11
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/test/Desktop/AkkaCassandraEg
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/test/Desktop/AkkaCassandraEg/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaCassandraEg/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaCassandraEg/project, returning: (akkacassandraeg-build)
+Loading project definition from /home/test/Desktop/AkkaCassandraEg/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@11b9d1cd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/test/Desktop/AkkaCassandraEg
+[Loading] Found non-root projects 
+[Loading] Done in /home/test/Desktop/AkkaCassandraEg, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/test/Desktop/AkkaCassandraEg, returning: (akkacassandraeg)
+Set current project to AkkaCassandraEg (in build file:/home/test/Desktop/AkkaCassandraEg/)
+Reapplying settings...
+Set current project to AkkaCassandraEg (in build file:/home/test/Desktop/AkkaCassandraEg/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 7221@test-VirtualBox logs at Sat May 13 16:03:26 IST 2017, goodbye.

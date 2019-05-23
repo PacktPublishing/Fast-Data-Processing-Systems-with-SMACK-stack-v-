@@ -1,0 +1,56 @@
+[0m[[0minfo[0m] [0m[32mPingPongActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Ping Pong Game[0m[0m
+[0m[[0minfo[0m] [0m[31m- must terminate after 3 ping messages *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (10 seconds) while expecting 2 messages (got 0)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:219)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1(TestKit.scala:698)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.$anonfun$receiveN_internal$1$adapted(TestKit.scala:695)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:234)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Range.foreach(Range.scala:156)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike.map(TraversableLike.scala:234)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike.map$(TraversableLike.scala:227)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractTraversable.map(Traversable.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.receiveN_internal(TestKit.scala:695)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase.expectMsgAllOf_internal(TestKit.scala:562)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mA Ping actor[0m[0m
+[0m[[0minfo[0m] [0m[31m- must terminate after 3 messages *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.actor.InvalidActorNameException: actor name [PingTest] is not unique![0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.example.PingPongActorSpec.$anonfun$new$4(PingPongActorSpec.scala:77)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- must should place 2 Pong messages and GameOver on Pong topic message after 3 PingPong messages *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.actor.InvalidActorNameException: actor name [PingTest] is not unique![0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.example.PingPongActorSpec.$anonfun$new$5(PingPongActorSpec.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32mA Pong actor[0m[0m
+[0m[[0minfo[0m] [0m[31m- must terminate getting GameOver message *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.actor.InvalidActorNameException: actor name [PongTest] is not unique![0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:129)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild(Children.scala:134)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.reserveChild$(Children.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.makeChild(Children.scala:272)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild(Children.scala:48)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children.attachChild$(Children.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:362)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:704)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.example.PingPongActorSpec.$anonfun$new$9(PingPongActorSpec.scala:97)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
